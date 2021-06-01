@@ -13,7 +13,7 @@ import Handle from '../internal/handle';
 
 /**
  * @param store A redux store.
- * @returns A funciton that takes a base class and returns a mix-in that connects the component to Redux store.
+ * @returns A function that takes a base class and returns a mix-in that connects the component to Redux store.
  */
 const ConnectMixin = <
   TState,
